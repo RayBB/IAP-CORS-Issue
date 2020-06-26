@@ -10,3 +10,6 @@ When they are deployed to GAE they work fine.
 
 When I turn on IAP they do not work as per the stack overflow question.
 
+To deploy these cd into each directory then run `gcloud app deploy`
+
+Note that you must already have a "default" GAE service running in your project for these to deploy with the proper names.
